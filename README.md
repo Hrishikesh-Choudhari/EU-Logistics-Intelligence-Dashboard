@@ -1,2 +1,5 @@
 # EU-Logistics-Intelligence-Dashboard
 End-to-end data engineering &amp; business intelligence portfolio: PySpark, SQL medallion pipeline on Databricks + Power BI dashboard measuring associate productivity compliance across Amazon EU Logistics operations.
+This project demonstrates a production-style data engineering pipeline built on Databricks Community Edition, modelling associate shift productivity across Amazon EU Logistics operations.
+The pipeline ingests data from three simulated source systems — HR shift records, operations event logs, and country-level wages data — and processes them through a Bronze → Silver → Gold medallion architecture using PySpark and SQL. The gold layer powers a Power BI dashboard tracking Fast Start, Post Break Ramp Up, and Strong Finish compliance across 25 EU sites in 14 countries, with wasted labour cost quantified per metric and per process activity.
+Built as a portfolio project to demonstrate skills in data modelling, PySpark transformations, Delta Lake, SQL aggregation, and business intelligence reporting.
