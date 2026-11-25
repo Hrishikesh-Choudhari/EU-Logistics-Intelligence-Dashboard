@@ -1,3 +1,13 @@
+## Tech stack
+
+**Sources:** AWS S3, Amazon Redshift, CSV 
+
+**Data platform:** Databricks (PySpark, Spark SQL), Delta Lake, Medallion architecture (Bronze, Silver, Gold layer)
+
+**Data quality:** layer reconciliation, null, duplicate and range checks
+
+**BI and semantic layer:** Power BI, DAX, Power Query, Row-level security (PII Data Privacy - Limiting access to only approved stakeholders)
+
 # EU Logistics Intelligence Dashboard
 
 An end-to-end analytics product that measured how productively associates start their shift, return from breaks and finish their shift across Amazon EU Logistics, and turned every lost minute into a labour cost that operations managers could act on.
@@ -206,13 +216,6 @@ Only minutes beyond the 15-minute threshold are costed, so a shift that starts 3
 | Real associate and site data | Synthetic data: 426K shifts, 25 sites, 15 countries, January to August 2025 |
 
 ---
-
-## Tech stack
-
-**Sources:** AWS S3, Amazon Redshift
-**Data platform:** Databricks (PySpark, Spark SQL), Delta Lake, medallion architecture
-**Data quality:** layer reconciliation, null, duplicate and range checks
-**BI and semantic layer:** Power BI, DAX, Power Query, row-level security
 
 ---
 
