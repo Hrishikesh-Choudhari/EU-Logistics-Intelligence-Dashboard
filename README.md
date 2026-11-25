@@ -242,6 +242,19 @@ Only minutes beyond the 15-minute threshold are costed, so a shift that starts 3
 4. Open `powerbi/Flow_KPI_Dashboard.pbix` in Power BI Desktop to explore the dashboard.
 
 ---
+### Databricks View:
+1) Bronze Layer - Loading Raw Data
+<img width="953" height="425" alt="image" src="https://github.com/user-attachments/assets/a01efedf-7547-4612-bd2a-71797b4147a6" />
+
+2) Silver Layer - Performing data cleaning and adding extra fields for business layer
+<img width="953" height="445" alt="image" src="https://github.com/user-attachments/assets/19003981-0d2a-4df9-88a2-08ba4aed200c" />
+
+3) Gold Layer - Business Layer
+<img width="950" height="441" alt="image" src="https://github.com/user-attachments/assets/30ede32a-2815-4752-ab36-d77e04825f83" />
+
+### Dashboard View (Power BI):
+<img width="668" height="380" alt="image" src="https://github.com/user-attachments/assets/0232f245-1f9f-41b7-b429-8708d5946c52" />
+<img width="715" height="404" alt="image" src="https://github.com/user-attachments/assets/6a93e519-56df-4ec4-8a23-6b8cddcaa5e6" />
 
 ## About this repository
 
